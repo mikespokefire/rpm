@@ -41,6 +41,7 @@ EOS
   s.rubygems_version = Gem::VERSION
   s.summary = "New Relic Ruby Agent"
 
+  s.add_dependency 'facets', '2.7.0'
   s.add_development_dependency 'rake', '10.1.0'
   s.add_development_dependency 'minitest', '~> 4.7.5'
   s.add_development_dependency 'mocha', '~> 0.13.0'
